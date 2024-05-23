@@ -1,0 +1,34 @@
+{
+    "clientes":"Clientes",
+    "nombre":"Nombre",
+    "nombre-hint":"Ingrese el nombre del cliente",
+    "nombre-requerido":"El nombre es requerido",
+    "apellido":"Apellido",
+    "telefono":"Telefono",
+    "acciones":"Acciones",
+    "correo":"Correo",
+    "modulo-clientes-titulo":"Modulo Administrativo de Clientes",
+    "crear-cliente":"Crear Cliente",
+    "h2-registro":"Este es el modulo de creacion de clientes",
+    "registro_clientes":"Registro de Clientes",
+    "guardar":"Guardar",
+    "cancelar":"Cancelar",
+    "editarCliente":"Editar datos del cliente",
+    "h2Editar":"Este es el modulo de edicion de clientes",
+
+    "eliminar":"Eliminar",
+    "actualizar":"Actualizar",
+    "h2-actualizar":"Este es el modulo de actualizacion de clientes",
+    "actualizar_clientes":"Actualizar Clientes",
+    "h2-eliminar":"Este es el modulo de eliminacion de clientes",
+    "eliminar_clientes":"Eliminar Clientes",
+    "h2-consultar":"Este es el modulo de consulta de clientes",
+    "consultar_clientes":"Consultar Clientes",
+    "buscar":"Buscar",
+    "volver":"Volver",
+    "fecha-nac":"Fecha de Nacimiento",
+    "dni":"Documento de Identidad"
+
+    
+
+}

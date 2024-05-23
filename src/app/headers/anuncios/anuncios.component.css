@@ -1,0 +1,64 @@
+.container__general{
+    width: 100%;
+}
+.container{
+     display: flex;
+    width: 98vh;
+    margin: auto;
+    
+}
+.container__izquierdo{
+    display: flex;
+    background-color:var(--theme-color);
+    min-width: 50%;
+    justify-content: space-between;
+}
+.anuncio__izquierdo{
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    
+    
+}
+
+
+svg {
+    margin: 5px;
+    cursor: pointer;
+    width: 20px;
+    fill: white;
+}
+
+
+
+.anuncio__derecho{
+    display: flex;
+    width: 15rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    justify-content:space-around;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+.anuncio__derecho p{
+    color: white;
+    margin: auto;
+    
+}
+.anuncio__derecho svg{
+    fill: white;
+    width: 13px;
+
+}
+
+.container__derecho{
+    min-width: 50%;
+    display: flex;
+    justify-content:end;
+    gap: 1rem;
+}

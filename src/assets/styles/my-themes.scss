@@ -1,0 +1,133 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+$mi-primary-theme: (
+  50 : #edf5f7,
+  100 : #d1e5ea,
+  200 : #b3d4dd,
+  300 : #94c3cf,
+  400 : #7db6c4,
+  500 : #66a9ba,
+  600 : #5ea2b3,
+  700 : #5398ab,
+  800 : #498fa3,
+  900 : #387e94,
+  A100 : #e1f8ff,
+  A200 : #aeebff,
+  A400 : #7bdfff,
+  A700 : #62d9ff,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$mi-accent-theme: (
+  50 : #fdeee7,
+    100 : #fbd4c3,
+    200 : #f8b79b,
+    300 : #f59a72,
+    400 : #f38454,
+    500 : #f16e36,
+    600 : #ef6630,
+    700 : #ed5b29,
+    800 : #eb5122,
+    900 : #e73f16,
+    A100 : #ffffff,
+    A200 : #ffe8e4,
+    A400 : #ffbeb1,
+    A700 : #ffa997,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$mi-warn-theme: (
+  50 : #fae3e3,
+  100 : #f3b8b8,
+  200 : #ec8989,
+  300 : #e45959,
+  400 : #de3636,
+  500 : #d81212,
+  600 : #d41010,
+  700 : #ce0d0d,
+  800 : #c80a0a,
+  900 : #bf0505,
+  A100 : #ffe8e8,
+  A200 : #ffb5b5,
+  A400 : #ff8282,
+  A700 : #ff6969,
+  contrast: (
+    50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$my-palette-primary: mat.define-palette($mi-primary-theme);
+$my-palette-accent: mat.define-palette($mi-accent-theme);
+$my-palette-warn: mat.define-palette($mi-warn-theme);
+
+$my-theme: mat.define-light-theme((
+  color: (
+    primary: $my-palette-primary,
+    accent: $my-palette-accent,
+    warn: $my-palette-warn
+  )
+));
+
+@include mat.all-component-themes($my-theme);
+
+:root {
+    --first-font: Poppins, sans-serif;
+    --theme-color: #000000;
+    --second-color: #f16e36;
+    --black: #000000;
+    --white: #fff;
+    --border-color: #cdcdcd;
+    --h1: normal 700 51px/1.2 var(--first-font);
+    --h2: normal 700 41px/1.2 var(--first-font);
+    --h3: normal 700 26px/1.2 var(--first-font);
+    --h4: normal 700 22px/1.2 var(--first-font);
+    --h5: normal 700 18px/1.2 var(--first-font);
+    --h6: normal 700 14px/1.2 var(--first-font);
+    --common-text: normal 400 14px/1.4 var(--first-font);
+
+    --color-botonFondo1: #e4ccc2;
+}
